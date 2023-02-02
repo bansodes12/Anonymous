@@ -13,5 +13,10 @@ public class Neo_Stock_Trade_Panel {
 				driver.manage().window().maximize();
 
 	}
+	
+	public static void gitHubCheckProcess1()
+	{
+		System.out.println("heyy it is working fine");
+	}
 
 }

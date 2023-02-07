@@ -20,6 +20,9 @@ public class base {
 		driver.manage().window().maximize();
 		//driver.get("https://neostox.com/");
 		
+		
+		//comment
+		
 		driver.get(Utility.readDataFromPropertyFile("url"));
 		Utility.implicitWait(1000, driver);
 		Reporter.log("launching browser", true);
